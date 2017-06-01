@@ -27,8 +27,7 @@
 								<div class="card-inner">
 									<h4>注意!</h4>
 									<p>请勿在任何地方公开节点地址！</p>
-									<p>流量比例为0.5即使用1000MB按照500MB流量记录记录结算.</p>
-									<a href="javascript:void(0);" onClick="urlChange('guide',0,0,0)">如果您不知道如何查看节点的详细信息和二维码，请点我。</a>
+									
 								</div>
 							</div>
 						</div>
@@ -116,8 +115,8 @@
 																				{/if}
 
 
-																				<p>流量比例：<span class="label label-red">
-																					{$node->traffic_rate}
+																				<p>节点状态：<span class="label label-red">
+																					高速
 																				</span></p>
 
 
@@ -205,9 +204,10 @@
 																					</span></p>
 																					{/if}
 
-																					<p>流量比例：<span class="label label-red">
-																						{$node->traffic_rate}
-																					</span></p>
+																					<p>节点状态：<span class="label label-red">
+																					高速
+																				</span></p>
+
 
 																					<p>{$node->info}</p>
 
@@ -298,7 +298,7 @@ function urlChange(id,is_mu,rule_id) {
 	{
 		var doc = document.getElementById('infoifram').contentWindow.document;
 		doc.open();
-		doc.write('<img src="https://www.zhaoj.in/wp-content/uploads/2016/07/1469595156fca44223cf8da9719e1d084439782b27.gif" style="width: 100%;height: 100%; border: none;"/>');
+		doc.write('<img src="https://w/wp-content/uploads/2016/07/1469595156fca44223cf8da9719e1d084439782b27.gif" style="width: 100%;height: 100%; border: none;"/>');
 		doc.close();
 	}
 	else
