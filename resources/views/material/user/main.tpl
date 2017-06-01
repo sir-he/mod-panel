@@ -292,11 +292,11 @@
 								</a>
 							</li>
 							
-							<li>
+							<!--<li>
 								<a href="/user/relay">
 									<i class="icon icon-lg">compare_arrows</i>&nbsp;中转规则
 								</a>
-							</li>
+							</li>-->
 							
 							<li>
 								<a href="/user/trafficlog">
@@ -304,18 +304,18 @@
 								</a>
 							</li>
 							
-							<li>
+							<!--<li>
 								<a href="/user/lookingglass">
 									<i class="icon icon-lg">youtube_searched_for</i>&nbsp;观察窗
 								</a>
-							</li>
+							</li>-->
 						</ul>
 
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审计</a>
+						<!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审计</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_detect">
 							<li><a href="/user/detect"><i class="icon icon-lg">account_balance</i>&nbsp;审计规则</a></li>
 							<li><a href="/user/detect/log"><i class="icon icon-lg">assignment_late</i>&nbsp;审计记录</a></li>
-						</ul>
+						</ul>-->
 						
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_trade">帮助</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_trade">
@@ -335,7 +335,7 @@
 						</ul>
 
 						
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_help">交易</a>
+						<!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_help">交易</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_help">
 						
 						
@@ -355,7 +355,7 @@
 									<i class="icon icon-lg">code</i>&nbsp;充值
 								</a>
 							</li>
-						</ul>
+						</ul>-->
 						
 						{if $user->isAdmin()}
 							<li>
